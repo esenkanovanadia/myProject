@@ -16,30 +16,30 @@ input.addEventListener("keydown", (event) => {
     }
 })
 
-!zadania
-const showBtn = document.querySelector(".scryt")
-const hideBtn = document.querySelector(".pokazat")
+// !zadania
+// const showBtn = document.querySelector(".scryt")
+// const hideBtn = document.querySelector(".pokazat")
 
-const box = document.querySelector(".box")
+// const box = document.querySelector(".box")
 
-showBtn.addEventListener("click", () => {
-    box.classList.add("knopki")
-})
+// showBtn.addEventListener("click", () => {
+//     box.classList.add("knopki")
+// })
 
 // hideBtn.addEventListener("click", () => {
 //     box.classList.remove("knopki")
 // })
 
 
-//  function changeBackgroundColor() {
-//     var element = document.getElementById("text")
-//     element.style.color = "green"
-//  } 
+ function changeBackgroundColor() {
+    var element = document.getElementById("text")
+    element.style.color = "green"
+ } 
 
-//  function dobavit() {
-//     var text = document.getElementById("textInput").value
-//     var listItem = document.createElement("li")
-//  }
+ function dobavit() {
+    var text = document.getElementById("textInput").value
+    var listItem = document.createElement("li")
+ }
 
 
 
