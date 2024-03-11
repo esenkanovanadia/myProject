@@ -1,30 +1,30 @@
-// const btn = document.querySelector(".btn")
+const btn = document.querySelector(".btn")
 
 
-// function changeClick(){
-//     alert('knopka nazhata')
-// }
-// btn.addEventListener("click", changeClick)
+function changeClick(){
+    alert('knopka nazhata')
+}
+btn.addEventListener("click", changeClick)
 
 
 
-// let input = document.querySelector('.input')
+let input = document.querySelector('.input')
 
-// input.addEventListener("keydown", (event) => {
-//     if(event.key === "Enter"){
-//         console.log(input.value);
-//     }
-// })
+input.addEventListener("keydown", (event) => {
+    if(event.key === "Enter"){
+        console.log(input.value);
+    }
+})
 
-//!zadania
-// const showBtn = document.querySelector(".scryt")
-// const hideBtn = document.querySelector(".pokazat")
+!zadania
+const showBtn = document.querySelector(".scryt")
+const hideBtn = document.querySelector(".pokazat")
 
-// const box = document.querySelector(".box")
+const box = document.querySelector(".box")
 
-// showBtn.addEventListener("click", () => {
-//     box.classList.add("knopki")
-// })
+showBtn.addEventListener("click", () => {
+    box.classList.add("knopki")
+})
 
 // hideBtn.addEventListener("click", () => {
 //     box.classList.remove("knopki")
